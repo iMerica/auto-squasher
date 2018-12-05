@@ -30,6 +30,8 @@ squash () {
 - Source the file
 - Call `squash` with the number of commits at the tip of your branch to squash. For example `$ squash 10`. 
 - Auto-squasher will confirm the commits to be squashed before running.
+- A premade commit messsage will appear in your default editor. Update this with a commit message that summarizes the child commits.
+
 ## License
 
 MIT. Copyright (c) 2018 Michael. See `./LICENSE` file for details
