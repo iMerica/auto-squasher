@@ -1,4 +1,4 @@
-# Auto-squasher
+# Auto-Squasher
 Automagically Git Squash the last N Commits.
 
 ## Background
