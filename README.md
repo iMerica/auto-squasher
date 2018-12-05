@@ -24,13 +24,16 @@ squash () {
 
 ```
 
-## Usage
+## Setup
 
 - Add contents of `./squash.function` to your bashrc/zshrc file.
-- Source the file
+- Source the file.
+
+## Usage
+
 - Call `squash` with the number of commits at the tip of your branch to squash. For example `$ squash 10`. 
 - Auto-squasher will confirm the commits to be squashed before running.
-- A premade commit messsage will appear in your default editor. Update this with a commit message that summarizes the child commits.
+- After confirming, a premade commit messsage will appear in your default editor. Update this with a commit message that summarizes the child commits.
 
 ## License
 
